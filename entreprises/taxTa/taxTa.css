@@ -1,0 +1,132 @@
+.entete3 {
+    border-top: 5px solid #CE0033;
+    background-image: url(../taxTa/Images/simplon\ fond.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 138px;
+}
+
+.taxeTA{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.taxeTA .ImageTA{
+    width: 50%;
+}
+
+.taxeTA .ImageTA img{
+    width: 100%;
+}
+
+.taxeTA .Taxe{
+    width: 50%;
+}
+
+
+.left{
+    color: white;
+}
+.Taxe{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    justify-content: center;
+    background-color:#ce0033;
+    color: white;
+    width: 30%;
+
+}
+
+
+.ImageTaxe img{
+    width: 100%;
+    height: 90%;
+    margin-top: 5%;
+
+}
+.fondationCorps {
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+.contenuTA{
+    display: flex;
+    gap: 20%;
+}
+.BouttoTA,.TexteP2{
+background-color:#f1f5f8;;
+margin-left: 20px;
+}
+.imageContenu{
+    width: 20px;
+    height: 50px;
+}
+.btn btn-primery{
+    border-color: 2px red;
+}
+.btn btn-primery mt-3{
+    border: 1px solid red;
+}
+.card{
+    background-color:#f1f5f8 ;
+    border: none;
+}   
+
+
+@media(max-width: 700px) {
+    .taxeTA{
+        justify-content: center;
+        display: block;
+    }
+
+    .taxeTA .ImageTA{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .taxeTA .Taxe{
+        width: 100%;
+    }
+
+    .entete3{
+        margin-top: 40px;
+    }
+    .fondationCorps {
+            justify-content: center;
+            display:block;
+            gap: 20px;
+        }
+}
+
+
+@media only screen and (min-width: 700px) and (max-width:1100px) {
+
+    .entete3{
+        margin-top: 105px;
+    }
+    .taxeTA{
+        justify-content: center;
+        display: block;
+    }
+
+    .taxeTA .ImageTA{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .taxeTA .ImageTA img{
+        width: 100%;
+    }
+
+    .taxeTA .Taxe{
+        width: 100%;
+    }
+        .fondationCorps {
+            justify-content: center;
+            display: block;
+            gap: 20px;
+        }
+}

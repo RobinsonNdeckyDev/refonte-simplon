@@ -1,0 +1,355 @@
+.entete3 {
+    border-top: 5px solid #CE0033;
+    background-image: url('../../style/SimplonImg/IMG1.jpg') !important;
+    /* background-repeat: no-repeat; */
+    /* background-size: 100% 100%; */
+    margin-top: 138px;
+}
+.containerEntete3{
+    border: 2px solid blue;
+    background-color:#b00b2f9c;
+    width: 65%;
+    height: 0px !important;
+    text-align: center;
+    margin: 0 auto;
+}
+.containerEntete3 p{
+    color: #fff!important;
+    border: 1px solid rgb(244, 239, 239);
+}
+.containerEntete3 h2{
+    font-size: 24px !important;
+    padding: 5px;
+}
+.entete3 { 
+    border-top: 5px solid #CE0033; 
+    background-image: url(./SimplonImg/IMG1.jpg);
+    background-repeat: no-repeat; background-size: 100% 100%;
+    margin-top: 138px; 
+}
+.descriptionSimplon{
+    display: flex;
+    background-color: #F6F6F6;
+    padding: 14px;
+    margin-bottom: 25px;
+}
+.imageSimplon{
+    width: 40%;
+    /* height: 60%; */
+}
+.imageSimplon img { 
+    width: 100%;
+}
+.textSimplon{
+    width: 70%;
+    background-color: #eeeeee;
+    position: relative;
+    left: -35vh;
+    top: 15px;
+    height: 45vh;
+    text-align: justify;
+    padding: 18px;
+}
+.textSimplon h3{
+    color: #ce0033;
+    font-size: 24px;
+}
+.textSimplon p{
+    font-size: 14px;
+}
+.notreHistire{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: #F6F6F6;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.notreHistire .titre h3{
+    color: #ce0033;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 25vh;
+}
+.detailsHistoire{
+    width: 60%;
+}
+
+/* Styles pour les balises details et summary */
+details {
+    /* background-color: #f0f0f0; */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: white;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow {
+    transform: rotate(0deg);
+    transition: transform 0.2s;
+    margin-left: 60px;
+}
+
+details[open] .arrow {
+    transform: rotate(180deg);
+}
+
+/* Style lorsque les détails sont ouverts */
+details[open] {
+    background-color: #ffff;
+}
+
+.number{
+    margin-right: 10px;
+}
+.infosSup{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    background-color: #F6F6F6;
+}
+.engagementSimplon{
+    width: 50%;
+    height: 35%;
+    background-color: #FFF;
+    margin: 0 auto;
+    padding: 9px;
+    border-radius: 10px;
+}
+.engagementSimplon h3{
+    color: #ce0033;
+    font-size: 24px;
+    text-align: center;
+}
+.videoSimplon{
+    display: flex;
+    padding: 4px;
+}
+.videoSimplon .video{
+    margin: 6px;
+}
+
+
+/* Bannière */
+.backEntete3-Qsm{
+    border: 1px solid red;
+    padding-top: 12%;
+    background-color: rgba(0, 0, 0, 0.644);
+}
+
+.containerEntete3-Qsm{
+    background-color: #ce00349d;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 12%;
+    text-align: center;
+    color: white;
+    padding: 2%;
+}
+
+.containerEntete3-Qsm h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.raccourcis-Qsm{
+    padding-left: 50px;
+}
+
+.raccourcis-Qsm p{
+    font-weight: bold;
+}
+
+.raccourcis-Qsm .right{
+    color: #CE0033;
+}
+
+/* Bannière */
+
+@media (max-width:700px){
+    .containerQsm{
+        display: flex;
+        flex-direction: column;
+    }
+    .textSimplon{
+        background-color: #eeeeee;
+        position: relative;
+        left: 14px;
+        top: -25vh;
+        height: 60vh;
+        text-align: justify;
+    }
+    .imageSimplon{
+        width: 50%;
+    }
+    .descriptionSimplon{
+        display: flex;
+        flex-direction: column;
+    }
+    .notreHistire{
+        display: flex;
+        flex-direction: column;
+    }
+    .infosSup{
+        display: flex;
+        flex-direction: column;
+    }
+    .notreHistire .titre h3{
+        color: #ce0033;
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: -2vh;
+    }
+
+    .containerEntete3 {
+        background-color: #b00b2f9c;
+        width: 95%;
+        height: 0px !important;
+        text-align: center;
+        margin: 0 auto;
+        border: 2px solid blue;
+    }
+
+    .containerEntete3 h2{
+        font-size: 16px !important;
+    }
+
+    .containerEntete3 p{
+        display: none;
+    }
+
+    .containerEntete3-Qsm {
+        background-color: #ce00349d;
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 12%;
+        text-align: center;
+        color: white;
+        padding: 2%;
+    }
+    
+    .raccourcis-Qsm {
+        padding-left: 30px;
+    }
+
+    .containerEntete3-Qsm h2{
+        font-size: 25px;
+    }
+
+    .containerEntete3-Qsm p{
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .descriptionSimplon {
+        display: block;
+        background-color: #F6F6F6;
+        padding: 14px;
+        margin-bottom: 25px;
+    }
+
+    .descriptionSimplon .imageSimplon{
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    .descriptionSimplon .imageSimplon img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .textSimplon {
+        width: 100%;
+        background-color: #eeeeee;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        /* height: 35vh; */
+        text-align: justify;
+        padding: 8px;
+    }
+    .detailsHistoire{
+        width: 100%;
+    }
+    .infosSup{
+        display: flex;
+        flex-direction: column;
+    }
+    .engagementSimplon{
+        width: 100%; 
+    }
+    .videoSimplon{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width:1100px) {
+    .containerEntete3-Qsm {
+        background-color: #ce00349d;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 12%;
+        text-align: center;
+        color: white;
+        padding: 2%;
+    }
+    
+    .raccourcis-Qsm {
+        padding-left: 30px;
+    }
+
+    .descriptionSimplon {
+        display: flex;
+        background-color: #F6F6F6;
+        padding: 14px;
+        margin-bottom: 25px;
+    }
+
+    .descriptionSimplon .imageSimplon img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .textSimplon {
+        width: 80%;
+        background-color: #eeeeee;
+        position: relative;
+        left: 10px;
+        top: 0px;
+        height: 75vh;
+        text-align: justify;
+        padding: 8px;
+    }
+    .notreHistire{
+        display: flex;
+        flex-direction: column;
+    }
+    .notreHostoire .titre h3{
+      margin: 0 auto;
+    }
+    .detailsHistoire{
+        width: 100%;
+    }
+    .infosSup{
+        display: flex;
+        flex-direction: column;
+    }
+    .engagementSimplon{
+        width: 100%; 
+        margin-bottom: 9px;
+    }
+    .videoSimplon{
+      margin: 0 auto;
+    }
+}

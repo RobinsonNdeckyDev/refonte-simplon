@@ -1,0 +1,48 @@
+.topforma6{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: #CE0033;
+    width: 10%;
+    display: flex;
+    height: 4px;
+    margin: 0 auto;
+}
+.card{
+    border-bottom-right-radius: 80px 80px;
+    box-shadow: 2px 5px 5px #CE0033;
+}
+.entete3 {
+    border-top: 5px solid #CE0033;
+    background-image: url('https://media.istockphoto.com/id/1452604857/photo/businessman-touching-the-brain-working-of-artificial-intelligence-automation-predictive.jpg?s=2048x2048&w=is&k=20&c=-dkoxqirWcLDhkIjVgkLfRXdNHqCJdPKswM7tkjTcN0=');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 138px;
+}
+.topformat{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: #CE0033;
+    width: 12%;
+    display: flex;
+    height: 4px;
+    margin: 0 auto;
+}
+
+
+@media(max-width: 700px) {
+    .boutons1 {
+        flex-direction: column;
+        padding: 0 5%;
+    }
+}
+
+
+@media only screen and (min-width: 700px) and (max-width:1100px) {
+    .boutons1 {
+        flex-direction: column;
+        padding: 0 5%;
+    }
+
+}

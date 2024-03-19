@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../style/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="faireFormation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>faireFormation</title>
+</head>
+
+<body>
+    <!-- progress -->
+    <div id="progress">
+        <span id="progressValue"><i class="bi bi-arrow-up-square-fill"></i></span>
+    </div>
+    
+    <!-- header -->
+    <header class="">
+        <diV class="headerTop fixed-top">
+            <section class="entete1">
+                <div class="left">
+                    <a href="../../accueil.html"><img src="../../style/SimplonImg/logo2-removebg-preview.png" alt=""></a>
+                </div>
+                <div class="burger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="rightContainer">
+                    <div class="rightDetail">
+                        <div class="Rdet">
+                            <div class="iconR">
+                                <i class="fa-regular fa-clock"></i>
+                            </div>
+                            <div class="textR">
+                                <span>Monday - Friday <br> 08:00 AM - 08:00 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rightDetail">
+                        <div class="Rdet">
+                            <div class="iconR">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="textR">
+                                <span>Monday - Friday <br> 08:00 AM - 08:00 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rightDetail icones">
+                        <span class="faIcon"><i class="fa-brands fa-facebook-f"></i></span>
+                        <span><i class="fa-brands fa-twitter"></i></span>
+                        <span><i class="fa-brands fa-instagram"></i></span>
+                        <span><i class="fa-brands fa-linkedin-in"></i></span>
+                    </div>
+                </div>
+            
+                <div class="dropMenu dropMenuHidden">
+                    <span class="close"><i class="fa-solid fa-xmark"></i></span>
+                    <nav class="dropNav">
+                        <ul class="dropFirst">
+                            <li><a href="../../accueil.html">Accueil</a></li>
+                            <li><a href="#">A propos <i class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="dropSecond">
+                                    <li><a href="../../apropos/qsm/qsm.html">Qui sommes nous ?</a></li>
+                                    <li><a href="../../apropos/notrePedagogie/notrePedagogie.html">Notre pédagogie</a></li>
+                                    <li><a href="../../apropos/notreReseau/notreReseau.html">Notre réseau de fabriques</a>
+                                    </li>
+                                    <li><a href="../apropos/nosAction/nosAction.html">Nos actions pour un numérique
+                                            unclusif</a></li>
+                                    <li><a href="../../apropos/antiFaq/antiFaq.html">Anti-FAQ</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Formations <i class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="dropSecond">
+                                    <li><a href="../../formations/cybersecurite/cybersecurite.html">Infrastructure et
+                                            cybersécurité</a></li>
+                                    <li><a href="../../formations/devApp/devApp.html">Développement d'applications</a></li>
+                                    <li><a href="../../formations/numerique/numerique.html">Fondamentaux numériques</a>
+                                    </li>
+                                    <li><a href="../../formations/agile/agile.html">Gestion de projet agile</a></li>
+                                    <li><a href="../../formations/devOps/devOps.html">Cloud-devOps</a></li>
+                                    <li><a href="../../formations/ai/ai.html">Data-intelligence artificielle</a></li>
+                                    <li><a href="../../formations/meta/meta.html">Métavers et XR</a></li>
+                                    <li><a href="../../candidats/blockchain/blockchain.html">Blockchain</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Alternances <i class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="dropSecond">
+                                    <li><a href="../../alternances/faireFormation/faireFormation.html">Faire formation en
+                                            alternance</a></li>
+                                    <li><a href="../../alternances/recruterAlternace/recruterAlternace.html">Recruter en
+                                            alternance</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Candidats <i class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="dropSecond">
+                                    <li><a href="../../candidats/candidater/candidater.html">Candidater</a></li>
+                                    <li><a href="../../candidats/vae/vae.html">Valider ses acquis par la VAE</a></li>
+                                    <li><a href="../../candidats/actionFemme/actionFemme.html">Actions pour les femmes</a>
+                                    </li>
+                                    <li><a href="../../candidats/handicap/handicap.html">Personnes en situation de
+                                            handicap</a></li>
+                                    <li><a href="../../candidats/migration/migration.html">Nos actions pour les refugiés et
+                                            les ressortissants</a></li>
+                                    <li><a href="../../candidats/blockchain/blockchain.html">Se former à la blockchain</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Entreprises <i class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="dropSecond">
+                                    <li><a href="../../entreprises/formerSalarie/formerSalarie.html">Former ses
+                                            salariés</a></li>
+                                    <li><a href="../../entreprises/taxTa/taxTa.html">Collecte de la TA 2023</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+            <section class="entete2">
+                <nav class="navigation">
+                    <div class="menuleft">
+                        <ul class="firstUl">
+                            <li><a href="../../accueil.html">Accueil</a></li>
+                            <li><a href="#">A propos <i class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="secondUl">
+                                    <li><a href="../../apropos/qsm/qsm.html">Qui sommes nous ?</a></li>
+                                    <li><a href="../../apropos/notrePedagogie/notrePedagogie.html">Notre pédagogie</a></li>
+                                    <li><a href="../../apropos/notreReseau/notreReseau.html">Notre réseau de fabriques</a>
+                                    </li>
+                                    <li><a href="../apropos/nosAction/nosAction.html">Nos actions pour un numérique
+                                            unclusif</a></li>
+                                    <li><a href="../../apropos/antiFaq/antiFaq.html">Anti-FAQ</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Nos formations <i class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="secondUl">
+                                    <li><a href="../../formations/cybersecurite/cybersecurite.html">Infrastructure et
+                                            cybersécurité</a></li>
+                                    <li><a href="../../formations/devApp/devApp.html">Développement d'applications</a></li>
+                                    <li><a href="../../formations/numerique/numerique.html">Fondamentaux numériques</a>
+                                    </li>
+                                    <li><a href="../../formations/agile/agile.html">Gestion de projet agile</a></li>
+                                    <li><a href="../../formations/devOps/devOps.html">Cloud-devOps</a></li>
+                                    <li><a href="../../formations/ai/ai.html">Data-intelligence artificielle</a></li>
+                                    <li><a href="../../formations/meta/meta.html">Métavers et XR</a></li>
+                                    <li><a href="../../candidats/blockchain/blockchain.html">Blockchain</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Alternance <i class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="secondUl">
+                                    <li><a href="../../alternances/faireFormation/faireFormation.html">Faire formation en
+                                            alternance</a></li>
+                                    <li><a href="../../alternances/recruterAlternace/recruterAlternace.html">Recruter en
+                                            alternance</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Candidats <i class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="secondUl">
+                                    <li><a href="../../candidats/candidater/candidater.html">Candidater</a></li>
+                                    <li><a href="../../candidats/vae/vae.html">Valider ses acquis par la VAE</a></li>
+                                    <li><a href="../../candidats/actionFemme/actionFemme.html">Actions pour les femmes</a>
+                                    </li>
+                                    <li><a href="../../candidats/handicap/handicap.html">Personnes en situation de
+                                            handicap</a></li>
+                                    <li><a href="../../candidats/migration/migration.html">Nos actions pour les refugiés et
+                                            les ressortissants</a></li>
+                                    <li><a href="../../candidats/blockchain/blockchain.html">Se former à la blockchain</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Entreprises <i class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="secondUl">
+                                    <li><a href="../../entreprises/formerSalarie/formerSalarie.html">Former ses
+                                            salariés</a></li>
+                                    <li><a href="../../entreprises/taxTa/taxTa.html">Collecte de la TA 2023</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="spaceBlack">
+                        <div id="triangle-code"></div>
+                    </div>
+                </nav>
+            </section>
+        </diV>
+        <!-- section3 -->
+        <section class="entete3">
+            <!-- <img src="../faireFormation/imgbaniére.png" alt=""> -->
+            <!-- <div class="backEntete3">
+               
+                            
+                        </div> -->
+
+                         
+                <!-- partie forme baground de la page d'acceuil -->
+                
+                <!-- <div class="box">
+                    <div class="center">
+                <div class="dialog-2">
+                <div class="right-point"></div>
+                <p class="text"><span class="textrouge">Avec nos formations en alternance <br> Faites évoluer votre carrière</span>
+                   <br><span class="textblanc">Vous souhaitez faire évoluer votre carrière <br> professionnelle en vous formant à un métier <br>du numérique ? Découvrez une de nos 30 <br>formations en alternance.À distance ou en <br> présentiel, nos formations allient théorie et <br> pratique pour vous permettre de monter <br>rapidement en compétences.</span></p>
+                <button class="boutton1">Trouver ma formation en alternance
+                            </div>
+                        </button> -->
+                   
+                        
+                 
+                <div class="container3">
+                    <div class="containerEntete3">
+                      
+                </div>
+
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <script src="/Groupe4-RefontSimplon/style/FontAwesome.js"></script>
+    </header>
+
+    <!-- Main -->
+
+    <main>
+        <h3 class="premierh3">Nos alternances de formation certifiantes</h3><br>
+        
+<!-- carte -->
+<div class="cartes">
+    <div class="carte">
+        <div class="contCarte">
+            <div class="imgCarte">
+                <img src="../faireFormation/img2.jpg" alt="">
+            </div>
+            <h3>Développement mobile IOS</h3>
+            <p>Simplon Lille -Wazemmes</p>
+            <div class="boutonCart">
+                <button class="btn"><a href="../../formations/devApp/devApp.html">Découvrir</a></button>
+            </div>
+        </div>
+        <div class="infoCarte">
+            <div class="info">
+                <p><span><i class="fa-regular fa-calendar-minus"></i>Début:</span>Octobre 2023</p>
+                <p><span><i class="fa-solid fa-location-dot"></i>Dakar</span></p>
+            </div>
+            <div class="info">
+                <p><span><i class="fa-regular fa-clock"></i>Durée:</span>3 mois</p>
+            </div>
+        </div>
+        <div class="carteFooter">
+            <p>
+                Apple Foundation Program
+            </p>
+        </div>
+    </div>
+
+    <div class="carte">
+        <div class="contCarte">
+            <div class="imgCarte">
+                <img src="../faireFormation/ima.jpeg" alt="">
+            </div>
+            <h3>Infrastructures et cybersécurité</h3>
+            <p>Simplon Lille -Wazemmes</p>
+            <div class="boutonCart">
+                <button class="btn"><a href="../../formations/cybersecurite/cybersecurite.html">Découvrir</a></button>
+            </div>
+        </div>
+        <div class="infoCarte">
+            <div class="info">
+                <p><span>Début:</span>Octobre 2023</p>
+                <p><span>Dakar</span></p>
+            </div>
+            <div class="info">
+                <p><span>Durée:</span>3 mois</p>
+            </div>
+        </div>
+        <div class="carteFooter">
+            <p>
+                Apple Foundation Program
+            </p>
+        </div>
+    </div>
+
+    <div class="carte">
+        <div class="contCarte">
+            <div class="imgCarte">
+                <img src="../faireFormation/principes-fondamentaux-du-marketing-numerique.webp" alt="">
+            </div>
+            <h3>Fondamentaux numériques</h3>
+            <p>Simplon Lille -Wazemmes</p>
+            <div class="boutonCart">
+                <button class="btn"><a href="../../formations/numerique/numerique.html">Découvrir</a></button>
+            </div>
+        </div>
+        <div class="infoCarte">
+            <div class="info">
+                <p><span>Début:</span>Octobre 2023</p>
+                <p><span>Dakar</span></p>
+            </div>
+            <div class="info">
+                <p><span>Durée:</span>3 mois</p>
+            </div>
+        </div>
+        <div class="carteFooter">
+            <p>
+                Apple Foundation Program
+            </p>
+        </div>
+    </div>
+
+    <div class="carte">
+        <div class="contCarte">
+            <div class="imgCarte">
+                <img src="../faireFormation/img4.jpg" alt="">
+            </div>
+            <h3>Gestion de projet agile</h3>
+            <p>Simplon Lille -Wazemmes</p>
+            <div class="boutonCart">
+                <button class="btn"><a href="../../formations/agile/agile.html">Découvrir</a></button>
+            </div>
+        </div>
+        <div class="infoCarte">
+            <div class="info">
+                <p><span>Début:</span>Octobre 2023</p>
+                <p><span>Dakar</span></p>
+            </div>
+            <div class="info">
+                <p><span>Durée:</span>3 mois</p>
+            </div>
+        </div>
+        <div class="carteFooter">
+            <p>
+                Apple Foundation Program
+            </p>
+        </div>
+    </div>
+</div> <br>
+
+<div class="fondgris1">
+    <p class="P1">L'alternance avec Simplon.co,</p>
+    <p class="P2">un tremplin pour votre avenir</p>
+  </div>
+ <h3 class="Deuxiémeh3">Modalités de nos Formations</h3>
+<div class="fondgris2">
+<div class="fondblanc">
+     <ul class="liste">
+         <li><i class="fa-solid fa-graduation-cap" style="color: #CE0033;"></i>&nbsp;&nbsp;Formations diplômantes et certifiantes</li><br>
+         <li><i class="fa-regular fa-clock" style="color: #CE0033;"></i>&nbsp;&nbsp;Durée : 12 à 24 mois selon la formation</li><br>
+         <li class="troisiémeLi"><i class="fa-solid fa-location-dot" style="color: #CE0033"></i>&nbsp;&nbsp;Localisation : Cours en présentiel ou 100% distanciel</li><br>
+         <li class="quatriémeLi"><i class="fa-regular fa-user" style="color: #CE0033"></i>&nbsp;&nbsp;Admission sur entretien</li>
+     </ul><br>
+</div>
+</div><br>
+ 
+<div class="bouttondispley">
+    <button class="boutton2">Je candidate</button>
+    <button class="boutton3">Découvrir la pédagogie Simplon</button>
+</div>
+<h3 class="troisiémeh3">Nos  alumnies apprenant(e)s</h3><br>
+<div class="cartegris">
+    <div class="cartegris1">
+        <div class="imgcartegris1">
+            <img src="../faireFormation/im1.jpeg" alt="">
+        </div>
+        <button class="boutton4">Developpeur web</button>
+    </div>
+
+    <div class="cartegris1">
+        <div class="imgcartegris1">
+        <img src="../faireFormation/2im.webp" alt="">
+        </div>
+        <button class="boutton4">Référente digital</button>
+   </div>
+
+   <div class="cartegris1">
+        <div class="imgcartegris1">
+            <img src="../faireFormation/3im.webp" alt="">
+        </div>
+        <button class="boutton4">Technicienne sup</button>
+    </div>
+
+    <div class="cartegris1">
+        <div class="imgcartegris1">
+        <img src="../faireFormation/im4.jpg" alt="">
+        </div>
+        <button class="boutton4">Administrateur</button>
+    </div>
+</div>
+
+
+   
+</div>
+    
+
+
+
+<!-- <div class="cartesRobin">
+    <div class="carte">
+        <div class="contCarte">
+            <div class="imgCarte">
+                <img src="../faireFormation/ima.jpeg" alt="">
+            </div>
+            <h3>Infrastructures et cybersécurité</h3>
+            <p>Simplon Lille -Wazemmes</p>
+            <div class="boutonCart">
+                <button class="btn"><a href="../../formations/cybersecurite/cybersecurite.html">Découvrir</a></button>
+            </div>
+        </div>
+        <div class="infoCarte">
+            <div class="info">
+                <p><span>Début:</span>Octobre 2023</p>
+                <p><span>Dakar</span></p>
+            </div>
+            <div class="info">
+                <p><span>Durée:</span>3 mois</p>
+            </div>
+        </div>
+        <div class="carteFooter">
+            <p>
+                Apple Foundation Program
+            </p>
+        </div>
+    </div>
+
+    <div class="carte">
+        <div class="contCarte">
+            <div class="imgCarte">
+                <img src="../faireFormation/ima.jpeg" alt="">
+            </div>
+            <h3>Infrastructures et cybersécurité</h3>
+            <p>Simplon Lille -Wazemmes</p>
+            <div class="boutonCart">
+                <button class="btn"><a href="../../formations/cybersecurite/cybersecurite.html">Découvrir</a></button>
+            </div>
+        </div>
+        <div class="infoCarte">
+            <div class="info">
+                <p><span>Début:</span>Octobre 2023</p>
+                <p><span>Dakar</span></p>
+            </div>
+            <div class="info">
+                <p><span>Durée:</span>3 mois</p>
+            </div>
+        </div>
+        <div class="carteFooter">
+            <p>
+                Apple Foundation Program
+            </p>
+        </div>
+    </div>
+
+    <div class="carte">
+        <div class="contCarte">
+            <div class="imgCarte">
+                <img src="../faireFormation/ima.jpeg" alt="">
+            </div>
+            <h3>Infrastructures et cybersécurité</h3>
+            <p>Simplon Lille -Wazemmes</p>
+            <div class="boutonCart">
+                <button class="btn"><a href="../../formations/cybersecurite/cybersecurite.html">Découvrir</a></button>
+            </div>
+        </div>
+        <div class="infoCarte">
+            <div class="info">
+                <p><span>Début:</span>Octobre 2023</p>
+                <p><span>Dakar</span></p>
+            </div>
+            <div class="info">
+                <p><span>Durée:</span>3 mois</p>
+            </div>
+        </div>
+        <div class="carteFooter">
+            <p>
+                Apple Foundation Program
+            </p>
+        </div>
+    </div>
+
+    <div class="carte">
+        <div class="contCarte">
+            <div class="imgCarte">
+                <img src="../faireFormation/ima.jpeg" alt="">
+            </div>
+            <h3>Infrastructures et cybersécurité</h3>
+            <p>Simplon Lille -Wazemmes</p>
+            <div class="boutonCart">
+                <button class="btn"><a href="../../formations/cybersecurite/cybersecurite.html">Découvrir</a></button>
+            </div>
+        </div>
+        <div class="infoCarte">
+            <div class="info">
+                <p><span>Début:</span>Octobre 2023</p>
+                <p><span>Dakar</span></p>
+            </div>
+            <div class="info">
+                <p><span>Durée:</span>3 mois</p>
+            </div>
+        </div>
+        <div class="carteFooter">
+            <p>
+                Apple Foundation Program
+            </p>
+        </div>
+    </div>
+</div> -->
+
+   
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="footerContainer">
+            <div class="logoFooter">
+                <div class="logo">
+                    <a href="../../accueil.html"><img src="../../style/SimplonImg/logo2-removebg-preview.png" alt=""></a>
+                </div>
+                <p class="pleft"><span class="coods">Adresse:</span> Dakar</p>
+                <p class="pleft"><span class="coods">Téléphone:</span> 76 425 67 27</p>
+                <p class="pleft"><span class="coods">Email:</span> simplonsenegal@gmail.com</p>
+            </div>
+
+            <div class="pageFooter">
+                <h3 class="titre3">Pages</h3>
+                <ul>
+                    <li><a href="../../accueil.html">Accueil</a></li>
+                    <li><a href="../../apropos/qsm/qsm.html">A propos</a></li>
+                    <li><a href="../../formations/cybersecurite/cybersecurite.html">Formations</a></li>
+                    <li><a href="../../alternances/faireFormation/faireFormation.html">Alternances</a></li>
+                    <li><a href="../../candidats/candidater/candidater.html">Candidats</a></li>
+                    <li><a href="../../alternances/faireFormation/faireFormation.html">Entreprises</a></li>
+                </ul>
+            </div>
+
+            <div class="formationFooter">
+                <h3 class="titre3">Formations</h3>
+                <ul>
+                    <li><a href="../../formations/cybersecurite/cybersecurite.html">Infrastructure et cybersécurité</a></li>
+                    <li><a href="../../formations/devApp/devApp.html">Développement d'applications</a></li>
+                    <li><a href="../../formations/numerique/numerique.html">Fondamentaux numériques</a></li>
+                    <li><a href="../../formations/agile/agile.html">Gestion de projet agile</a></li>
+                    <li><a href="../../formations/devOps/devOps.html">Cloud-devOps</a></li>
+                </ul>
+            </div>
+
+            <div class="footerNews">
+                <h3 class="titre3">Newsletters</h3>
+                <form action="" class="form">
+                    <input class="form-control" type="text" placeholder="Email Address" id="Email">
+                    <button class="btn">S'incrire</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <h6 class="text-center">Copyright 2023 All Rights reserved - Simplon</h6>
+        </div>
+    </footer>
+
+    <!-- script js -->
+    <script src="../../style/test.js"></script>
+    <!-- sweetAlert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+
+</html>
